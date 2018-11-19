@@ -1,0 +1,557 @@
+/* CSS Document */
+/*======================================home css ==========================================*/
+.prof_sharingtile{
+width:auto;
+height:auto;
+padding:5px;
+color:#000000;
+background-color:rgba(255,255,255,0.6);
+margin:20px;
+}
+.prof_sharingtile a{
+text-decoration:none;
+}
+.shareicon_pic{
+width:20px;
+height:20px;
+display:inline-block;
+margin-right:15px;
+}
+
+.beauty_animate_left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.beauty_mainbgdiv{
+width:100%;
+display:inline-block;
+background-position:center;
+font-family:arial;
+background-size:cover; 
+height:550px;
+}
+.beauty_coverdiv{
+width:30%;
+height:0;
+border-bottom:550px  solid rgba(255,255,255,0.6);
+border-right:500px solid transparent;
+top:0px;
+position:absolute;
+}
+.beauty_bgskin{
+background-color:rgba(255,255,255,0.6);
+}
+.beauty_sslimg{
+width:100%;
+height:100%;
+}
+.beauty_coverdiv_cont{
+padding:30px;
+text-align:center;
+}
+.beauty_homebtn{
+width:200px;
+padding:5px;
+background-color:#0033FF;
+color:#fff;
+font-family:arial;
+font-weight:bold;
+border-radius:10px;
+margin:20px;
+}
+.beauty_homebtn a{
+color:#fff;
+text-decoration:none;
+}
+.beauty_animate_textnbtn_left{position:relative;animation:animatetop 3s}@keyframes animatetop{from{bottom:-100px;opacity:0} to{bottom:0;opacity:1}}
+.beauty_animate_textonly_left{position:relative;animation:animatebottom 4s}@keyframes animatebottom{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.beauty_cartegory_home{
+width:250px;
+height:350px;
+display:inline-block;
+background-color:#FFF;
+color:#000;
+margin-right:10px;
+
+}
+.beauty_cartegory_homeimg{
+width:100%;
+height:80%;
+}
+.beauty_cartegory_home:hover{
+box-shadow:2px 2px 4px 4px rgba(0,0,0,0.5);
+}
+
+.beauty_sitecont{
+width:80%;
+padding:10px;
+text-align:left;
+color:#000;
+background-color:rgba(255,255,255,0.6);
+
+}
+.beauty_prodtray{
+width:280px;
+height:400px;
+display:inline-block;
+margin-right:10px;
+vertical-align:top;
+}
+.beauty_prodlistimg{
+width:100%;
+height:100%;
+}
+.beauty_prodlist_descr{
+width:80%;
+color:#000;
+background-color:rgba(255,255,255,0.8);
+top: -200px;
+position: relative;
+padding:5px;
+}
+@media screen and (max-width:700px){
+.mainbgdiv{
+width:100%;
+}
+
+.beauty_mainbgdiv{
+width:100%; 
+height:400px;
+}
+.beauty_coverdiv{
+border-bottom:400px  solidrgba(255,255,255,0.6);
+border-right:200px solid transparent;
+}
+
+.beauty_coverdiv_cont{
+padding:20px;
+}
+.beauty_homebtn{
+width:auto;
+padding:5px;
+border-radius:10px;
+margin:10px;
+}
+.beauty_cartegory_home{
+width:90%;
+height:auto;
+margin-right:0px;
+margin-bottom:10px;
+
+}
+.beauty_sitecont{
+width:90%;
+padding:10px;
+
+}
+.beauty_prodtray{
+width: 90%;
+height: 400px;
+margin-right: 0px;
+margin-bottom: 10px;
+}
+.beauty_prodlist_descr{
+width:90%;
+color:#000;
+background-color:rgba(255,255,255,0.7);
+top: -200px;
+}
+}
+
+/*======================================home css ==========================================*/
+/*======================================navigation bar css ==========================================*/
+.dropdwn_navelem {
+display:inline-block;
+}
+.dropdwn_container {
+}
+
+.dropdwn_cartdiv {
+    display: none;
+    position: absolute;
+    background-color:#FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	text-align:left;
+}
+
+.dropdwn_cartdiv a {
+    color: #000;
+    padding:5px;
+    text-decoration: none;
+    display: block;
+	line-height:20px;
+}
+
+.dropdwn_cartdiv a:hover {background-color:#0033CC; 
+color: #FFF;
+}
+
+.dropdwn_container:hover .dropdwn_cartdiv {
+    display: block;
+}
+
+.beauty_topmost{
+width:auto;
+padding:5px;
+background-color:#0033FF;
+text-align:right;
+}
+.beauty_socialdiv{
+margin-right:20px;
+display:inline-block;
+color:#FFFFFF;
+vertical-align:top;
+}
+.beauty_socialicon{
+width:30px;
+height:30px;
+border-radius:50%;
+border:1px solid #0000CC;
+display:inline-block;
+margin-right:7px;
+background-color:#FFF;
+
+}
+.beauty_left_ttle{
+width:30%;
+height:auto;
+border-bottom:1px solid #0033CC;
+display:inline-block;
+}
+.beauty_ttle{
+display:inline-block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+}
+.beauty_navdiv{
+padding-left:7px;
+background-color:#FFF;
+color:#000;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+}
+.beauty_navdiv a{
+color:#000;
+}
+.beauty_menulinks{
+width:auto;
+padding:25px;
+display:inline-block;
+margin-right:10px;
+font-size:14px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.beauty_menulinks a{
+color:#000;
+text-decoration:none;
+
+}
+.beauty_logoimgdesk{
+width:60px;
+height:60px;
+float: left;
+display: inline-block;
+}
+.beauty_busname{
+display: inline-block;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+padding:8px;
+font-size:24px;
+font-weight:bold;
+}
+
+.beauty_slogan{
+font-size:11px;
+font-weight:bold;
+}
+
+.fashion_button_widget{
+background-color:#0033FF;
+color:#FFFFFF>;
+width:300px;
+padding:5px;
+border-radius:7px;
+}
+.fashion_button_widget a{
+color:#FFFFFF;
+text-decoration:none;
+}
+.fashion_gentextbox{
+width:250px;
+border:none;
+border-bottom:1px solid #0033CC;
+color:#000;
+
+}
+.beauty_navdiv_mobi{
+display:none;
+}
+
+@media screen and (max-width:700px){
+.fashion_button_widget{
+width:90%;
+}
+.fashion_gentextbox{
+width:90%;
+}
+.desknav{
+display:none;
+height:200px;
+}
+.beauty_menulinks{
+width:90%;
+margin-top:10px;
+padding:0px;
+text-align:left;
+padding-left:4px;
+border-bottom:1px solid  #0000CC;
+
+}
+.beauty_navdiv_mobi{
+display:block;
+color:#000;
+background:#FFF;
+}
+.beauty_left_ttle{
+width:98%;
+}
+}
+/*======================================navigation bar css ==========================================*/
+/*======================================product listing css ==========================================*/
+.engnit_prodtop{
+width:auto;
+height:150px;
+background-image:url(../images/bgimg.jpg);
+background-position:center;
+background-size:cover;
+}
+.engnit_topbannercover{
+color:#000;
+background-color:#rgba(255,255,255,0.6);
+height:100%;
+padding:5px;
+}
+.engnit_mainimg{
+width:45%;
+height:auto;
+display:inline-block;
+margin:25px;
+}
+.engnit_decsrskin{
+padding:7px;
+background:#003399;
+color:#FFFFFF;
+}
+.engnit_decsrprod{
+width:45%;
+height:auto;
+margin-bottom:10px;
+display:inline-block;
+padding:10px;
+text-align:left;
+vertical-align:top;
+background:#0033FF;
+color:#FFF;
+}
+.engitshare_actionbtn{
+width:auto;
+padding:5px;
+border-radius:5px;
+background-color:#000099;
+color:#FFFFFF;
+display:inline-block;
+margin-bottom:20px;
+border:1px solid #FFFFFF;
+
+}
+.engitshare_actionbtn a{
+color:#FFFFFF;
+text-decoration:none;
+}
+@media screen and (max-width:700px){
+.engnit_mainimg{
+width:98%;
+margin:2px;
+}
+.engnit_decsrprod{
+width:98%;
+padding:1px;
+
+}
+
+}
+
+.fashion_top_banner{
+background-image:url(../images/bgimg.jpg);
+background-position:center;
+background-size:cover;
+height:100px;
+}
+.fashion_topbannercover{
+color:#000;
+background-color:rgba(255,255,255,0.7);
+height:100%;
+}
+.fashion_proftile{
+width:auto;
+}
+.fashion_thumbnailstrip{
+width:50px;
+padding:5px;
+height:auto;
+display:inline-block;
+vertical-align:top;
+
+}
+.fashion_thumbimg{
+width:100%;
+height:auto;
+margin-bottom:10px;
+display:inline-block;
+
+}
+.fashion_mainimg{
+width:400px;
+height:400px;
+display:inline-block;
+margin:25px;
+}
+.fashion_decsrprod{
+width:400px;
+height:auto;
+margin-bottom:10px;
+display:inline-block;
+padding:10px;
+text-align:left;
+vertical-align:top;
+}
+.fashionshare_actionbtn{
+width:auto;
+padding:5px;
+border-radius:5px;
+background-color:#0033CC;
+color:#FFFFFF;
+display:inline-block;
+margin-bottom:20px;
+}
+.fashionshare_actionbtn a{
+color:#FFFFFF;
+text-decoration:none;
+}
+.fashion_sharesocial{
+width:25px;
+height:25px;
+
+}
+.engnit_prodtop{
+width:auto;
+height:150px;
+background-image:url(../images/bgimg.jpg);
+background-position:center;
+background-size:cover;
+}
+.engnit_topbannercover{
+color:#000000;
+background-color:rgba(255,255,255,0.6);
+height:100%;
+padding:5px;
+}
+.engnit_mainimg{
+width:45%;
+height:auto;
+display:inline-block;
+margin:25px;
+}
+.engnit_decsrskin{
+padding:7px;
+background:#0033CC;
+color:#FFFFFF;
+}
+.engnit_decsrprod{
+width:45%;
+height:auto;
+margin-bottom:10px;
+display:inline-block;
+padding:10px;
+text-align:left;
+vertical-align:top;
+background:#0033FF;
+color:#FFFFFF;
+}
+.engitshare_actionbtn{
+width:auto;
+padding:5px;
+border-radius:5px;
+background-color:#003399;
+color:#FFFFFF;
+display:inline-block;
+margin-bottom:20px;
+border:1px solid #003399;
+
+}
+.engitshare_actionbtn a{
+color:#FFFFFF;
+text-decoration:none;
+}
+@media screen and (max-width:700px){
+.engnit_mainimg{
+width:98%;
+margin:2px;
+}
+.engnit_decsrprod{
+width:98%;
+padding:1px;
+
+}
+.fashion_thumbnailstrip{
+width:90%;
+}
+.fashion_decsrprod{
+width:90%;
+}
+.fashion_mainimg{
+width:90%;
+margin-right:0px;
+
+}
+.fashion_thumbimg{
+width:50px;
+margin-right:0px;
+}
+}
+
+
+/*======================================product listing css ==========================================*/
+
+/*======================================footer  css ==========================================*/
+
+.fashion_footdiv{
+background-color:#FFF;
+color:#000;
+text-align:center;
+}
+.fashion_footdiv a{
+color:#000;
+text-decoration:none;
+}
+.fashion_footleftright{
+display:inline-block;
+margin-right:20px;
+margin-bottom:20px;
+width:200px;
+padding:6px;
+text-align:left;
+}
+.fashion_footermenus{
+font-weight:bold;
+}
+.beauty_footer_bottommost{
+background-color:#0033CC;
+color:#fff;
+padding:7px;
+}
+/*======================================footer  css ==========================================*/

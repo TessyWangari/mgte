@@ -1,0 +1,505 @@
+/* CSS Document */
+
+body{
+margin:0;
+background-image:url(../images/bgimg.jpg);
+background-size:cover;
+background-position:center;
+backgound-repeat:repeat;
+font-family:arial;
+color:#000;
+}
+.marketgate_navribbon{
+width:auto;
+background-color:#FFF;
+color:#000;
+padding:7px;
+border-bottom:1px solid #0033CC;
+height:auto;
+}
+.marketgate_largetray{
+width:60%;
+height:auto;
+background-color:rgba(255,255,255,0.8);
+display:inline-block;
+margin-bottom:20px;
+margin-right:10px;
+vertical-align:top;
+
+}
+.marketgate_navdash2{
+background-color:#FFF;
+color:#000;
+padding:5px;
+border-bottom:1px solid #0066FF;
+height:55px;
+
+}
+.marketgate_dropdown{
+background-color:#FFF;
+padding:7px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+width:150px;
+z-index:999;
+border-left: 1px solid #0066FF;
+display:none;
+position: absolute;
+margin-top:15px;
+}
+.marketgate_dropcont:hover{
+background-color:#0066FF;
+color:#FFF;
+}
+.marketgate_dropcont:hover a{
+color:#FFF;
+}
+.marketgate_bardiv_btn:hover .marketgate_dropdown{
+display:block;
+}
+.bgplasma{
+background-color:rgba(255,255,255,0.6);
+height:100vh;
+}
+.marketgate_loginwindow{
+width:400px;
+height:auto;
+padding:10px;
+border-top:1px solid #0066FF;
+border-bottom:1px solid #0066FF;
+text-align:left;
+background-color:rgba(255,255,255,0.6);
+color:#000;
+}
+.marketgate_loginwindow:hover{
+box-shadow:1px 1px 1px 1px #CCC;
+}
+
+.marketgate_login_keyimag{
+width:40px;
+height:40px;
+display:inline-block;
+}
+.marketgate_login_title{
+display:inline-block;
+font-weight:bold;
+color:#000;
+}
+.marketgate_textwidget{
+width:90%;
+border:none;
+border-bottom:1px solid gray;
+margin-bottom:1px;
+background-color:rgba(255,255,255,0.0);
+color:#000;
+
+}
+.marketgate_smalltextwidget{
+width:300px;
+display:inline-block;
+}
+
+.marketgate_labelwidget{
+font-size:12px;
+font-weight:bold;
+display:inline-block;
+margin:20px;
+margin-left:0px;
+margin-bottom:5px;
+color:#000;
+
+}
+.marketgate_labelwidget a{
+color:#000;
+}
+.marketgate_buttonwidget{
+width:160px;
+background-color:#0066FF;
+color:#FFF;
+border-radius:10px;
+margin:10px;
+border:1px solid #0066FF;
+padding-bottom:5px;
+padding-top:5px;
+font-size:12px;
+font-family:arial;
+font-weight:bold;
+display:inline-block;
+border-bottom:1px solid #0066FF;
+text-align:center;
+}
+.marketgate_buttonwidget a{
+color:#FFF;
+text-decoration:none;
+}
+.marketgate_smallbuttonwidget{
+width:auto;
+display:inline-block;
+padding:4px;
+}
+
+.marketgate_logindiv_btn{
+display:inline-block;
+padding:10px;
+font-weight:bold;
+font-size:12px;
+margin-right:20px;
+cursor:pointer;
+padding-bottom:1px;
+color:#000;
+}
+.marketgate_logindiv_btn a{
+color:#000;
+text-decoration:none;
+
+}
+.marketgate_logindiv_btn:hover{
+border-bottom:2px solid #0066FF;
+}
+.marketgate_bardiv_btn{
+display:inline-block;
+padding:10px;
+font-weight:bold;
+font-size:12px;
+margin-right:20px;
+cursor:pointer;
+padding-bottom:10px;
+vertical-align:top;
+text-align:left;
+position: relative;
+height:21px;
+color:#000;
+
+}
+.marketgate_bardiv_btn a{
+color:#000;
+text-decoration:none;
+}
+.marketgate_bardiv_btn:hover{
+border-bottom:2px solid  #0066FF;
+}
+.marketgate_logoimg{
+width:55px;
+height:55px;
+float:left;
+padding:10px;
+padding-right:2px;
+padding-left:15px;
+}
+.marketgate_digibusname{
+font-size:12px;
+font-family:arial;
+font-weight:bold;
+}
+.marketgate_tenant_navdash1{
+background-color:#FFF;
+color:#000;
+}
+.marketgate_tenant_navdash2{
+background-color:#FFF;
+color:#000;
+padding:5px;
+border-bottom:1px solid #000;
+}
+.marketgate_tenant_bgtile_tray{
+width:350px;
+height:auto;
+border-top:0px solid #0066FF;
+background-color:rgba(255,255,255,0.6);
+display:inline-block;
+margin-bottom:20px;
+margin-right:10px;
+vertical-align:top;
+}
+.marketgate_tenant_bgtile_tray:hover{
+box-shadow:1px 1px 1px 1px #0066FF;
+}
+.marketgate_trayttle{
+background-color: #0066FF;
+width:100%;
+
+font-family:arial;
+color:#FFF;
+text-align:center;
+font-weight:600;
+}
+
+.marketgate_item_pic{
+width:100%;
+height:auto;
+}
+.marketgate_thumb_array{
+width:50px;
+height:50px;
+display:inline-block;
+margin-right:10px;
+cursor:pointer;
+}
+.marketgate_folder_array{
+width:30px;
+height:35px;
+display:inline-block;
+margin-right:10px;
+cursor:pointer;
+}
+.marketgate_recmother{
+background-color:rgba(255,255,255,0.6);
+display:inline-block;
+padding:0px;
+width:80%;
+height:532px;
+
+}
+.marketgate_recmother:hover{
+box-shadow:1px 1px 1px 1px gray;
+}
+.marketgate_recleftpic{
+width:25%;
+display:inline-block;
+border:0px solid #CCC;
+background-image:url("../images/86.jpg");
+border-right:1px solid #CCC;
+height:100%;
+vertical-align:top;
+}
+.marketgate_recdet{
+padding:5px;
+width:70%;
+text-align:left;
+border:0px solid #CCC;
+display:inline-block;
+}
+.marketgate_reclogo{
+border-radius:50%;
+border:1px solid #0066FF;
+width:60px;
+height:60px;
+}
+.marketgate_recheader{
+width:auto;
+display:inline-block;
+vertical-align:top;
+padding-top:20px;
+font-size:18px;
+}
+.marketgate_rectopbtm{
+width:100%;
+height:250px;
+}
+.marketgate_recaddress{
+float:right;
+display:inline-block;
+vertical-align:top;
+padding-right:20px;
+text-align:left;
+font-size:12px;
+}
+
+.marketgate_left_ttilediv{
+width:50px;
+border-top:1px solid #000;
+display:inline-block;
+}
+.marketgate_right_titilediv{
+width:60%;
+border-top:1px solid #000;
+display:inline-block;
+}
+.marketgate_title_textdiv{
+padding:5px;
+display:inline-block;
+padding-bottom:0px;
+font-family:arial;
+font-weight:bold;
+font-size:14px;
+color:#000;
+}
+.marketgate_recleftright_det{
+width:30%;
+padding:7px;
+text-align:left;
+display:inline-block;
+}
+.marketgate_recleftright_det:hover{
+border-bottom:1px solid #0033CC;
+}
+
+
+/*miniui css ==============*/
+.marketgate_alertmsgbox_placard{
+width:300px;
+height:auto;
+box-shadow:1px 1px 2px 2px gray;
+border-bottom:4px solid #0033CC;
+z-index:999;
+display:inline-block;
+background-color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+position:absolute; /* Stay in place */
+left: 50%;
+top: 50%;
+margin-left: -150px;
+margin-top: -150px;
+padding:20px;
+cursor:pointer;
+border-radius:5px;
+font-size:12px;
+font-weight:bold;
+color:#000;
+}
+.marketgate_popclose{
+width:50px;
+padding:7px;
+text-align:center;
+padding-bottom:2px;
+padding-top:2px;
+border-radius:5px;
+background-color:#000066;
+color:#FFFFFF;
+font-weight:normal;
+display:inline-block;
+margin-bottom:20px;
+}
+.marketgate_popclose a{
+color:#FFF;
+text-decoration:none;
+}
+a{
+color:#000;
+font-weight:bold;
+text-decoration:none;
+
+}
+/*miniui css ==============*/
+
+.marketgate_busname{
+float:left; font-size:14px; padding-left:1px; margin-top:20px;
+}
+
+.marketgate_recleftpic{
+width:25%;
+display:inline-block;
+border:0px solid #CCC;
+border-right:1px solid #0066FF;
+height:100%;
+vertical-align:top;
+}
+.marketgate_recdet{
+padding:5px;
+width:70%;
+text-align:left;
+border:0px solid #CCC;
+display:inline-block;
+}
+.marketgate_reclogo{
+border-radius:50%;
+border:1px solid #0066FF;
+width:60px;
+height:60px;
+}
+.marketgate_recheader{
+width:auto;
+display:inline-block;
+vertical-align:top;
+padding-top:20px;
+font-size:18px;
+}
+.marketgate_rectopbtm{
+width:100%;
+height:250px;
+}
+.marketgate_recaddress{
+float:right;
+display:inline-block;
+vertical-align:top;
+padding-right:20px;
+text-align:left;
+font-size:12px;
+}
+.marketgate_recmother{
+background-color:rgba(255,255,255,0.6);
+display:inline-block;
+padding:0px;
+width:80%;
+height:532px;
+border-left:3px solid #000099;
+}
+.marketgate_recmother:hover{
+box-shadow:1px 1px 1px 1px gray;
+}
+@media screen and (max-width:700px){
+.marketgate_profimage{
+width:80%;
+}
+.marketgate_attr_tblmobile{
+display:none;
+}
+.marketgate_attr_tblprop{
+width:100%;
+}
+.marketgate_loginwindow{
+width:90%;
+}
+.marketgate_recdet{
+width:90%;
+}
+.marketgate_right_titilediv{
+width:90%;
+}
+.marketgate_recleftright_det{
+width:98%;
+
+}
+.marketgate_recmother{
+width:98%;
+height:auto;
+}
+.marketgate_recleftpic{
+width:98%;
+display:none;
+}
+.marketgate_recaddress{
+float:none;
+}
+.marketgate_tenant_bgtile_tray{
+width:98%;
+margin-right:0px;
+}
+.marketgate_bardiv_btn{
+width:80%;
+}
+.marketgate_tenant_navdash2{
+text-align:left;
+padding-left:0px;
+}
+
+/*miniui css ==============*/
+.marketgate_alertmsgbox_placard{
+width:auto;
+margin-left: -110px;
+left: 30%;
+
+}
+/*miniui css ==============*/
+.marketgate_smalltextwidget{
+width:80%;
+}
+.marketgate_smallbuttonwidget{
+width:80%;
+}
+.marketgate_navdash2{
+text-align:left;
+padding-left:0px;
+text-align: center;
+height:auto;
+}
+.bgplasma{
+height:auto;
+}
+.marketgate_left_ttilediv{
+display:none;
+
+}
+.marketgate_largetray{
+width:98%;
+}
+}
